@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>{{ topic }} - {{ difficulty }}</title>
+</head>
+<body>
+<h1>{{ topic }} - {{ difficulty }}</h1>
+<p>
+Please complete the following exercises:
+</p>
+<form action="/submit-exercise" method="post">
+<ol>
+<li>
+<label for="exercise1">Exercise 1</label>
+<input type="text" id="exercise1" name="exercise1">
+</li>
+<li>
+<label for="exercise2">Exercise 2</label>
+<input type="text" id="exercise2" name="exercise2">
+</li>
+<li>
+<label for="exercise3">Exercise 3</label>
+<input type="text" id="exercise3" name="exercise3">
+</li>
+</ol>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
